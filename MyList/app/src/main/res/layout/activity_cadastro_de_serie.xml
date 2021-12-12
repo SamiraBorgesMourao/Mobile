@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroDeSerieActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cadastro de nova serie"
+    android:textColor="@color/black"
+    android:textSize="@dimen/textotitulo"
+    android:textStyle="bold"
+    android:layout_marginBottom="40dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome da Serie"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/nomeSerieCadSerieTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="informe o nome da Serie"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopse"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textocomum" />
+
+    <EditText
+        android:id="@+id/SinopseCadTxT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sinopse"
+        android:textSize="@dimen/textocomum"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="País"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/nomePaísCadTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="informe o país"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episódios"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/numeroEpiCadTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Episódios "
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duração"  android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/tempoDuraçãoCadTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duração"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/nomeGeneroCadTxT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Genero"
+            android:textSize="@dimen/textocomum"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imagemCadSerieImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@mipmap/ic_launcher_round"/>
+
+    <Button
+        android:id="@+id/salvarCadSerieBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textocomum">18sp</dimen>
+    <dimen name="textotitulo">30sp</dimen>
+    <dimen name="textosecundario">16dp</dimen>
+</resources>
